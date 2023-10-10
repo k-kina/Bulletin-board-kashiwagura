@@ -15,4 +15,9 @@
 //     return view('welcome');
 // });
 
-Route::get('/hello', 'Auth\Login\LoginController@hello');
+// ログイン
+Route::get('/login', 'Auth\Login\LoginController@loginView')->name('loginView');
+        Route::post('/login/post', 'Auth\Login\LoginController@loginPost')->name('loginPost');
+// 新規会員登録
+        Route::get('/register', 'Auth\Register\RegisterController@registerView')->name('registerView');
+        Route::post('/register/post', 'RegisterController@registerPost')->name('registerPost');
