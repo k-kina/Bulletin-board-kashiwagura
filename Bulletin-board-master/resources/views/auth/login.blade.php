@@ -16,10 +16,6 @@
   <div class="login-top">
   <form action="{{ route('loginPost') }}" method="POST">
 
-  <figure class="atlas">
-  <img src="{{ asset('images/image/atlas-black.png') }}" >
-</figure>
-
     <div class="w-100 d-flex" style="align-items:center; justify-content:center;">
 
       <div class="border vh-50 w-25" >
@@ -40,7 +36,6 @@
           <input type="submit" class="btn btn-primary" value="ログイン">
         </div>
         <div class="text-center">
-          <a href="{{ route('registerView') }}">新規登録</a>
         </div>
         </div>
       </div>
