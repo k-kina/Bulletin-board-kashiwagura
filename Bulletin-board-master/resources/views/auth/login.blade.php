@@ -36,6 +36,7 @@
           <input type="submit" class="btn btn-primary" value="ログイン">
         </div>
         <div class="text-center">
+          <div>新規ユーザー登録は</div><a href="{{ route('registerView') }}">こちら</a>
         </div>
         </div>
       </div>
