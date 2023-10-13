@@ -23,7 +23,7 @@
         <div class="w-75 m-auto pt-5">
           <label class="d-block m-0" style="font-size:13px;">メールアドレス</label>
           <div class="border-bottom border-primary w-100">
-            <input type="text" class="w-100 border-0" name="mail_address">
+            <input type="text" class="w-100 border-0" name="email">
           </div>
         </div>
         <div class="w-75 m-auto pt-5">
