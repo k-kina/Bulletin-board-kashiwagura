@@ -15,8 +15,9 @@
 //     return view('welcome');
 // });
 
-// ログイン
+// ログイン画面表示
 Route::get('/login', 'Auth\Login\LoginController@loginView')->name('loginView');
+// ログイン
 Route::post('/login/post', 'Auth\Login\LoginController@loginPost')->name('loginPost');
 // 新規会員登録
 Route::get('/register', 'Auth\Register\RegisterController@registerView')->name('registerView');
