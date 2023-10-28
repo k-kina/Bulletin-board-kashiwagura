@@ -22,7 +22,7 @@ class LoginController extends Controller
         //dd($userdata);
         if (Auth::attempt($userdata))
           {
-            return redirect('/top');
+            return redirect('/post_create');
         }else{
             return redirect('/login')->with('flash_message', 'name or password is incorrect');
         }
