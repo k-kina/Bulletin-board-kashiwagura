@@ -51,13 +51,13 @@
           </div>
         </div>
         <div class="mt-3">
-          <label class="d-block m-0" style="font-size:13px">確認用パスワード</label>
+          <label class="d-block m-0" style="font-size:13px">パスワード確認</label>
           <div class="border-bottom border-primary">
             <input type="password" class="border-0 w-100 password_confirmation" name="password_confirmation">
           </div>
         </div>
         <div class="mt-5 text-right">
-          <input type="submit" class="btn btn-primary register_btn" disabled value="新規登録" onclick="return confirm('登録してよろしいですか？')">
+          <input type="submit" class="btn btn-primary register_btn" value="確認">
         </div>
         <div class="text-center">
           <a href="{{ route('loginView') }}">ログイン</a>
